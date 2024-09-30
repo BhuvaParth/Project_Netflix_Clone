@@ -1,16 +1,17 @@
 // const express = require('express')
 import express from 'express';
-import dotenv from "dotenv";
 import authRoutes from "./routes/auth.route.js"
+import dotenv from "dotenv";
+import { ENV_VAR } from './config/envVars.js';
+import { connectDB } from './config/db.js';
 
-dotenv.config();
 const app = express();
+const port = ENV_VAR.PORT;
 
-console.log("MONGO_URI:", process.env.MONGO_URI);
-
-
+app.use(express.json());
 app.use("/api/v1/auth", authRoutes)
 
-app.listen(5000, () => {
-    console.log("server started at http://localhost:5000");  
+app.listen(port, () => {
+    console.log("server started at " + port);  
+    connectDB();
 })
