@@ -1,5 +1,4 @@
-import { fetchFromTMDB } from "../services/tmdb.service.js"
-
+import { fetchFromTMDB } from "../services/tmdb.service.js";
 
 export const getTrendingMovie = async (req, res) => {
   try {
@@ -12,7 +11,7 @@ export const getTrendingMovie = async (req, res) => {
   } catch (error) {
     res.status(500).json({ success: false, message: "Internal server error" });
   }
-}
+};
 
 export async function getMovieTrailers(req, res) {
   try {
