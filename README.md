@@ -13,7 +13,7 @@ This project is a clone of the popular streaming service Netflix, designed to fe
   ```npm install```
 
   ## Setup .env file
-  `PORT=5000 `
+  `PORT=5000`
   `MONGO_URI=your_mongo_uri`
   `NODE_ENV=development`
   `JWT_SECRET=your_jwt_secre`
@@ -27,4 +27,4 @@ This project is a clone of the popular streaming service Netflix, designed to fe
   ## Go to Frontend folder and enter this commands
 
   `npm install`
-  `npm run dev`
+  ```npm run dev
