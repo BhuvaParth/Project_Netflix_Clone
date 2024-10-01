@@ -10,17 +10,23 @@ This project is a clone of the popular streaming service Netflix, designed to fe
 # BackEnd SetUp And Run
 
   ## For BackEnd Project 
-  ```npm install```
+  ``` bash 
+    npm install
+  ```
 
   ## Setup .env file
-  `PORT=5000`
-  `MONGO_URI=your_mongo_uri`
-  `NODE_ENV=development`
-  `JWT_SECRET=your_jwt_secre`
-  `TMDB_API_KEY=your_tmdb_api_key`
+  ``` bash
+  PORT=5000
+  MONGO_URI=your_mongo_uri
+  NODE_ENV=development
+  JWT_SECRET=your_jwt_secre
+  TMDB_API_KEY=your_tmdb_api_key
+ ```
 
   ## Start App
-  `npm run dev`
+  ``` bash
+  npm run dev
+  ```
 
 # FrontEnd Setup
 
