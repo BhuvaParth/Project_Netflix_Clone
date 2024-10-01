@@ -26,5 +26,5 @@ This project is a clone of the popular streaming service Netflix, designed to fe
 
   ## Go to Frontend folder and enter this commands
 
-  `npm install`
-  ``` npm run dev ```
+  ``` npm install
+   npm run dev 
