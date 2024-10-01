@@ -10,7 +10,7 @@ This project is a clone of the popular streaming service Netflix, designed to fe
 # BackEnd SetUp And Run
 
   ## For BackEnd Project 
-  `npm install`
+  ```npm install```
 
   ## Setup .env file
   `PORT=5000 `
