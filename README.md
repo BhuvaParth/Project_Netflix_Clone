@@ -5,7 +5,7 @@ A Netflix clone application built with [Node.js](https://nodejs.org/) and [Expre
 # Project Overview
 This project is a clone of the popular streaming service Netflix, designed to fetch and display trending movies, top-rated TV shows, and other media from the TMDB API. It uses Node.js for the backend and implements modern web development practices.
 
-# CHECK OUT MAIN BRANCH FOR FRONTEND & BACKEND CODE OTHERWISE YOU CAN CHECKOUT SEPARATE BRANCH FOR FRONTEND & BACKEND 
+# Check out main branch for frontend & backend code otherwise you can checkout separate branch for frontend & backend code.
 
 # BackEnd SetUp And Run
 
